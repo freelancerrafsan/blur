@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.image
+{
+    background: url(img.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    filter: blur(0px);
+}
+.midelContent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(255, 255, 255),-1px -1px 3px black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.numbarCount
+{
+    font-size: 100px;
+    text-align: center;
+}
